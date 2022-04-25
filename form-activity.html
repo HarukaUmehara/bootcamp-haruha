@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Activity</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>
+               <label for="fullname">Full Name</label>
+            </td>
+            <td>
+                <input type="text" name="fullname" id="fullname" placeholder="First Name">
+                <input type="text" name="fullname" id="fullname"  placeholder="Last Name">
+                
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="university">University</label>
+                </td>
+            <td>
+                <select name="university" id="university">
+                 <option value="" hidden>Select University</option>
+                 <option value="Waseda">Waseda</option>
+                 <option value="Tokyo">Tokyo</option>
+                 <option value="Keio">Keio</option>
+                </select> 
+            </td>
+        </tr>
+        <tr>
+           <div>
+            <td>Where would you like to work?</td>
+            <td>
+                    <input type="checkbox" name="work" id="academia" value="academia">
+                    <label for="academia">Academia</label>
+                    <br>
+                    <input type="checkbox" name="work" id="industry" value="industry">
+                    <label for="industry">Industry</label>
+                    <br>
+                    <input type="checkbox" name="work" id="consultancy" value="consultancy">
+                    <label for="consultancy">Consultancy</label>
+                    <br>
+                    <input type="checkbox" name="work" id="finance" value="finance">
+                    <label for="finance">Finance</label>
+                    <br>
+                    <input type="checkbox" name="policy/government/NGO" id="policy/government/NGO" value="policy/government/NGO">
+                    <label for="policy/government/NGO">Policy/Government/NGO</label>
+            </td>
+           </div> 
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Email</label>
+                </td>
+            <td>
+                <input type="email" name="email" id="email" placeholder="***@###.com">
+                <br>
+                <input type="email" name="email" id="email" placeholder="Confirm Email">
+            </td>
+        </tr>
+        <tr>
+            <div>
+                <td>Would you like to sign up to the newsletter?</td>
+                <td>
+                    <input type="radio" name="newsletter" id="yes" value="yes">
+                    <label for="yes">Yes</label>
+                    <br>
+                    <input type="radio" name="newsletter" id="no," value="no,">
+                    <label for="no,">No, I have already signed up</label>
+                    <br>
+                    <input type="radio" name="newsletter" id="no" value="no">
+                    <label for="no">No</label>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button type="submt" name="submit" value="submit">Submit</button>
+            </td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
